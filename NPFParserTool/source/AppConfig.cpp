@@ -26,7 +26,7 @@ namespace common
         DSGUI::DSDir::SetCurrentPath(strCurPath);
 
         //set app
-        app.setWindowIcon(QIcon("./beetle.ico"));
+        app.setWindowIcon(QIcon("./robot.ico"));
         app.setOrganizationName(QString("NPF Parser"));
         app.setApplicationName(QString("NPF Parser"));
         QScreen* screen = app.primaryScreen();

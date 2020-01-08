@@ -7,13 +7,13 @@
 #include <libdsl/DStr.h>
 #include <QtWidgets/QLineEdit>
 #include <QtCore/QByteArray>
-#include <QDesktopServices>
+#include <QtGui/QDesktopServices>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDesktopWidget>
 #include <libdsl/DNetUtil.h>
 #include <Tools/Dir.h>
-#include <QSettings>
-#include <QProcess>
+#include <QtCore/QSettings>
+#include <QtCore/QProcess>
 #include <iphlpapi.h>
 
 using namespace DSGUI;
